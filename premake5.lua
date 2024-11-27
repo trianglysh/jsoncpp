@@ -25,7 +25,7 @@ project "jsoncpp"
 		symbols "On"
 		
 	filter "configurations:Preview or Shipping"
-		runtime "Debug"
-		symbols "On"
+		runtime "Release"
+		optimize "Speed"
 	
 	
